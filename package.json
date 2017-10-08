@@ -1,0 +1,27 @@
+{
+  "name": "amardaha",
+  "version": "1.0.0",
+  "description": "Amardaha.com - Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhardesigner/amardaha.com.git"
+  },
+  "keywords": [],
+  "author": "Shekhar K. Sharma <itsmes.sh@gmail.com> (http://www.shekhardesigner.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekhardesigner/amardaha.com/issues"
+  },
+  "homepage": "https://github.com/shekhardesigner/amardaha.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
