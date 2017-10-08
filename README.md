@@ -10,3 +10,9 @@ Developed and maintained by local residents. This is not a official website, jus
  - Visual Design
  - Photographs, gallery and Events
  - Tie up with existing facebook groups/pages
+
+
+## Hosting and Technologies
+ - Will be developing as SPA (React, Angular)
+ - Hosted in Firebase (SSL and Emails by G-suits)
+
