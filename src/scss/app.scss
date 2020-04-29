@@ -1,0 +1,60 @@
+@import 'normalize.css';
+
+html,
+body {
+    height: 100%;
+}
+// Body
+body {
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #444;    
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    min-height: 100%;
+}
+
+main > section {
+    flex-grow: 1;
+}
+
+article {
+    border: 1px solid #ddd;
+    background: #eaeaea;
+    padding: 1rem;
+    margin: 0 0 2rem;
+
+    h2 {
+        margin: 0 0 1rem;
+    }
+}
+
+.location > iframe {
+    width: 100%;
+}
+
+// Weather Widget
+.weather-float {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 300px;
+
+    #link_get_widget.aw-toggle {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.825rem;
+}

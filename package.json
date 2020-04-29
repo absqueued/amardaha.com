@@ -4,7 +4,8 @@
   "description": "Amardaha.com - Portal",
   "main": "index.js",
   "scripts": {
-    "start": "gulp server",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,10 +20,11 @@
   },
   "homepage": "https://github.com/shekhardesigner/amardaha.com#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-webserver": "^0.9.1"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.0.5",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

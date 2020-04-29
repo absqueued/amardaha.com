@@ -1,0 +1,27 @@
+@media screen and (max-width: 760px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+		padding: 0;
+    }
+    
+    main > header {
+        padding: 1rem;
+    }
+
+    .article {
+        margin: 0;
+    }
+
+    .weather-float {
+        position: static;
+        width: 100%;
+
+        div.aw-widget-current-inner {
+            max-width: 100% !important;
+        }
+	}
+
+}
