@@ -1,7 +1,19 @@
-# amardaha.com
+# Amardaha.com
 Amardaha.com - Public Portal
 
 Developed and maintained by local residents. This is not a official website, just for public information.
+
+## Contributing
+```
+git clone --depth=1 https://github.com/shekhardesigner/amardaha.com.git amardaha
+
+cd amardaha
+
+yarn
+
+yarn start
+
+```
 
 ## Roadmap
  - [ ] Brief History
